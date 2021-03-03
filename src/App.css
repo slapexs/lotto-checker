@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  background-color: #f7f9f8;
+  font-family: "Kanit", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-price1 {
+  background: #c3f209;
+  color: #4213fa;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-price11 {
+  background: #836760;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-nearprice1 {
+  background: #eeb3a6;
+  color: #0e4956;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
