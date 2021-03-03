@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/lotto-checker/static/css/main.82dc2e3b.chunk.css",
+    "main.js": "/lotto-checker/static/js/main.9db1bb54.chunk.js",
+    "main.js.map": "/lotto-checker/static/js/main.9db1bb54.chunk.js.map",
+    "runtime-main.js": "/lotto-checker/static/js/runtime-main.9d1c075c.js",
+    "runtime-main.js.map": "/lotto-checker/static/js/runtime-main.9d1c075c.js.map",
+    "static/css/2.658248ec.chunk.css": "/lotto-checker/static/css/2.658248ec.chunk.css",
+    "static/js/2.3c048bf6.chunk.js": "/lotto-checker/static/js/2.3c048bf6.chunk.js",
+    "static/js/2.3c048bf6.chunk.js.map": "/lotto-checker/static/js/2.3c048bf6.chunk.js.map",
+    "static/js/3.5452b31d.chunk.js": "/lotto-checker/static/js/3.5452b31d.chunk.js",
+    "static/js/3.5452b31d.chunk.js.map": "/lotto-checker/static/js/3.5452b31d.chunk.js.map",
+    "index.html": "/lotto-checker/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/lotto-checker/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.82dc2e3b.chunk.css.map": "/lotto-checker/static/css/main.82dc2e3b.chunk.css.map",
+    "static/js/2.3c048bf6.chunk.js.LICENSE.txt": "/lotto-checker/static/js/2.3c048bf6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d1c075c.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.3c048bf6.chunk.js",
+    "static/css/main.82dc2e3b.chunk.css",
+    "static/js/main.9db1bb54.chunk.js"
+  ]
+}
