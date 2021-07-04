@@ -19,10 +19,13 @@ export default class App extends Component {
     };
   }
   componentDidMount() {
-    const urlAPI = "https://lotto.api.rayriffy.com/latest";
+    
+    // const urlAPI = "https://lotto.api.rayriffy.com/latest";
+    const urlAPI = "https://lotto.api.rayriffy.com/lotto/01072564";
     axios.get(urlAPI).then((res) => {
       this.setState({
         firstPrice: res.data.response,
+        // firstPrice: res.data.response,
       });
     });
   }
@@ -64,7 +67,7 @@ export default class App extends Component {
               <Col md="4" className="my-3">
                 <div className="card text-center ">
                   <div className="card-header">
-                    {this.state.firstPrice.runningNumbers[0].name} <br />
+                    {this.state.firstPrice.prizes[0].name} <br />
                     {this.state.firstPrice.runningNumbers[0].amount}
                     รางวัลๆละ{" "}
                     {`฿${Intl.NumberFormat().format(
@@ -73,7 +76,7 @@ export default class App extends Component {
                   </div>
                   <div className="card-body text-center">
                     <h1>
-                      {this.state.firstPrice.runningNumbers[0].number[0] +
+                      {this.state.firstPrice.prizes[0].number[0] +
                         "  ,  " +
                         this.state.firstPrice.runningNumbers[0].number[1]}
                     </h1>
